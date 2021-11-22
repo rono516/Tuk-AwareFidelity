@@ -1,0 +1,157 @@
+*{
+    text-decoration: none;
+    color: black;
+   
+}
+a:hover{
+    background: orangered;
+    color: white;
+}
+
+
+/* INDEX CSS */
+
+.container_top{
+   display: flex;
+   margin: 20px;
+}
+.welcome_text_div{
+    width: 60%;
+}
+.logo_name{
+    font-size: 20px;
+    color: orangered;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+.welcome_text{
+    margin: 20px;
+    padding: 10px;
+    font-family: sans-serif;
+
+}
+/*nav */
+
+
+.side_nav_div{
+    margin-right: 10px;
+    margin-right: 20px;
+    width: 40%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.side_nav_div a{
+    background-color: orange;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.side_nav_div a:hover{
+    background: orangered;
+    color: white;
+}
+.side_nav_div a div p{
+    color: white;
+    font-weight: bold;
+}
+
+/* end of nav*/
+
+
+.service_description{
+    height: 200px;
+    border: 2px solid orangered;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.community_description{
+    height: 200px;
+    border: 2px solid orangered;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*
+footer
+*/
+.footer{
+    display: flex;
+    background-color: black;
+    height: 300px;
+   padding: 10px;
+}
+.footer div p{
+    color: white;
+    font-family: sans-serif;
+}
+.quote{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+
+}
+.quote p{
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 100;
+}
+.social_media{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.facebook{
+    background-color: blue;
+    text-align: center;
+    
+    color: white;
+}
+.Instagram{
+    background: rgb(241, 2, 62);
+    text-align: center;
+}
+.WhatsApp{
+    background-color: green;
+    text-align: center;
+}
+.Twitter{
+    background: rgb(3, 179, 233);
+    text-align: center;
+}
+hr{
+    background-color: orangered;
+}
+
+/* SERVICES CSS */
+
+.container_wrapper{
+    margin: 20px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.nav a{
+    width: 25%;
+    margin-left: 5px;
+    background: orangered;
+    
+}
+
+.nav a div p{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
