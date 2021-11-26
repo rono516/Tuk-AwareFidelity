@@ -1,0 +1,52 @@
+.service_description{
+    height: 200px;
+    border: 2px solid orangered;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container1{
+    margin: 20px;
+}
+.nav1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.nav1 a{
+    width: 25%;
+    margin-left: 5px;
+    background: orangered;
+    
+}
+
+.nav1 a div p{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+.left{
+    /*background:green;*/
+    width:100px;
+    float:left;
+  }
+  
+  .center{
+     /*background:gold;*/
+     width:100px;
+     float:left;
+  }
+  
+  .right{
+     /*background:gray;*/
+     width:100px;
+     float:left;
+  }
+  .container {
+    display: flex;
+    flex-flow: row nowrap; /* Align on the same line */
+    justify-content: space-between; /* Equal margin between the child elements */
+  }
